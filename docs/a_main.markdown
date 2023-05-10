@@ -13,5 +13,7 @@ Our desired end goal with this project is to produce an analysis workflow in whi
 
 <hr class="page-content-divider">
 
+<h3>The Structure of the Site</h3>
+
 
 
