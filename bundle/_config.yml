@@ -18,16 +18,34 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: ""
+email: ""
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  This project represents the culmination of our work in the course 
+  Social Data Analysis and Visualization (02806) offered by the Technical University of Denmark. 
+  Over the course of the semester, we've learned a wide range of data analysis and visualization techniques, 
+  and we've put these skills to use in exploring a complex and important real-world problem: traffic accidents in San Francisco.
+
+
+navigation:
+  - title: Home
+    url: /main/
+  - title: Statistics
+    url: /statistics/
+  - title: Maps
+    url: /maps/
+  - title: Machine Learning
+    url: /machinelearning/
+  - title: About
+    url: /about/
+    
+
+
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+#twitter_username: jekyllrb
+#github_username:  jekyll
 
 # Build settings
 theme: minima
