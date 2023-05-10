@@ -11,3 +11,7 @@ We were inspired to choose this project after participating in the class-wide Pr
 
 Our desired end goal with this project is to produce an analysis workflow in which any city's traffic incidents can be investigated, especially in combination with available crime data. We hope that our work will help inform policy and decision-making in the future.
 
+<hr class="page-content-divider">
+
+
+
