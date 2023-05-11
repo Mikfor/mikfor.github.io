@@ -15,5 +15,16 @@ Our desired end goal with this project is to produce an analysis workflow in whi
 
 <h3>The Structure of the Site</h3>
 
+The site is structered as follows:
+
+- The [Home](/a_main/) page contains a brief introduction to the project and the team.
+
+- The [Analysis](/b_statistics/) page contains the main analysis of the project.
+
+- The [Maps](/c_maps/) page contains interactive maps of the traffic incidents in San Francisco.
+
+- The [Machine Learning](/d_machine_learning/) page contains the machine learning analysis of the project.
+
+- The [About](/e_about/) page contains information about the project and the team.
 
 
