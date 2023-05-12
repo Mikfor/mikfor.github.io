@@ -12,3 +12,5 @@ But we also wanted to add another dimension to our analysis. So we decided to su
 We explored questions like: What are the most common causes of traffic accidents in San Francisco? Are certain types of accidents more likely to occur in certain locations or at certain times of day? And how have accident rates changed over time?
 
 Through our analysis, we were able to gain a deeper understanding of the complex factors that contribute to traffic accidents, and we hope that our work will help inform policy and decision-making in the future. 
+
+See full notebook here: [Jupyternbviewer](https://nbviewer.org/github/Mikfor/FinalAssignment_B/blob/main/traffic%20incident_Project_Assignemt_B.ipynb).
