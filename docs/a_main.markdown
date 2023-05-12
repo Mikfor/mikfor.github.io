@@ -27,4 +27,6 @@ The site is structered as follows:
 
 - The About page contains information about the project and the team.
 
+INFO: If the visualizations is unreadable, please try to right click and open the image in a new tab.
+
 
