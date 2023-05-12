@@ -13,4 +13,4 @@ We explored questions like: What are the most common causes of traffic accidents
 
 Through our analysis, we were able to gain a deeper understanding of the complex factors that contribute to traffic accidents, and we hope that our work will help inform policy and decision-making in the future. 
 
-See full notebook here: [Jupyternbviewer](https://nbviewer.org/github/Mikfor/FinalAssignment_B/blob/main/traffic%20incident_Project_Assignemt_B.ipynb). (Opens in the same tab)
+See full notebook here: [Jupyternbviewer](https://nbviewer.org/github/Mikfor/FinalAssignment_B/blob/main/traffic%20incident_Project_Assignemt_B.ipynb){:target="_blank"} (Opens in new tab)

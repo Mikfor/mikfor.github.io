@@ -29,6 +29,6 @@ The pages are described as:
 
 In the visualization, users can right click on the plots and select "Open picture in a new tab", which opens the plot a new tab of the browser, allowing for zooming, either with a right click for an enlarged zoom or CTRL+mousewheel measured zooming.
 
-See full notebook here:[Jupyternbviewer](https://nbviewer.org/github/Mikfor/FinalAssignment_B/blob/main/traffic%20incident_Project_Assignemt_B.ipynb). Opens in a new tab.
+See full notebook here:[Jupyternbviewer](https://nbviewer.org/github/Mikfor/FinalAssignment_B/blob/main/traffic%20incident_Project_Assignemt_B.ipynb){:target="_blank"}. (Opens in new tab)
 
 
