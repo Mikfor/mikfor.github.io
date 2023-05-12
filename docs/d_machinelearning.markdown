@@ -5,20 +5,20 @@ title: "Machine Learning"
 
 Here we will explore the machine learning aspect of the project. We will be using the data we have cleaned and prepared in the previous section to train a model that can predict the severity of an accident based on the features we have selected, such as bumps, crossings, juntions, railway and etc. Firstly we will explore the correlation between the features and the severity of the accidents. Then we will train a model using the data we have prepared and evaluate the model.
 
-<img src="assets/images/Correlation_Matrix.png" alt="Correlation Matrix" width="500"/>
+<img src="assets/images/Correlation_Matrix.png" alt="Correlation Matrix"/>
 
 To get a better understanding of the visualization we decided to divide the features into three different sets.
 - Common weather metrics as in temperature, humidity, pressure etc.
 - Weather conditions description as in most cloudy, scattered clouds, partly cloudy etc.
 - Winding condtions including wind speed, wind direction etc.
 
-<img src="assets/images/three_correlariont.png" alt="Correlation Matrix" width="500"/>
+<img src="assets/images/three_correlariont.png" alt="Correlation Matrix 3"/>
 
 After analyzing the data and comparing four sets of correlations, including the one that focused on surrounding features as discussed in the previous section, we discovered that the common weather set exhibited the strongest correlation with severity. This significant finding indicates that weather conditions could play a crucial role in predicting the severity of incidents.
 
 Based on the result above, we have build a decision tree model to further explore the relationship between weather conditions and incident severity. Decision tree as one of the predictive model is known for its explainability. With its tree structure, it provides a clear and intuitive representation of its decision-making process. By constructing a decision tree model, we could identify the most critical weather factors that contribute to the severity of incidents. This knowledge could ultimately help us develop more effective strategies to mitigate the impact of severe incidents.
 
-<img src="assets/images/decision_tree.png" alt="Decision Tree" width="500"/>
+<img src="assets/images/decision_tree.png" alt="Decision Tree"/>
 
 As predictive model that built to assess the severity of traffic incidents based on common weather metrics, its performance numberaically good given accuracy is at 91.12% and precision at 83.02%. When accuracy measures the overall correctness of a model's predictions, precision measures the proportion of correct positive predictions out of all positive predictions as what we can observe in the confusion matrix, where both the true label and the predicted label were the same.
 
