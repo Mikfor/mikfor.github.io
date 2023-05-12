@@ -9,7 +9,7 @@ Furthermore, we observe that December is the month with most incidents, followed
 
 <img src="assets/images/datetime_1.png" alt="datetime_1">
 
-In the next plot we examined the relationship between the time of day and accident occurrence. One interesting aspect we explored was the contrast between accidents that happen during daylight and those that occur in darkness. By visualizing this relationship, we can gain insights into the patterns and prevalence of accidents under different lighting conditions.
+In the next plot we examined the relationship between the time of day and accident occurrence. One interesting aspect we explored was the contrast between accidents that happen during the day and those that occur in darkness.
 
 To differentiate between accidents that occurred during the day and those that took place in darkness, we added the "Sunrise_Sunset" variable as the hue. This attribute highlights the two distinct categories and enables us to compare their distributions visually.
 
@@ -45,10 +45,10 @@ The plots above drove us to investigate the severity of incidents in more detail
 
 <img src="assets/images/severity_indicator.png" alt="severity_2">
 
-We examined the relationship between the presence of stops and the severity of incidents. We expected that the presence of stops would be highly correlated with severe incidents, leading us to anticipate observing many red crosses (indicating stops) in areas associated with severe incidents. However, our findings revealed a different pattern.
+We examined the relationship between the presence of stops and the severity of incidents. We expected that the presence of stops would be highly correlated with severe incidents, leading us to anticipate observing many red crosses (indicating stops) in areas associated with severe incidents.
 
-Upon visualizing the data in the scatter plot, we observed that there were not many red crosses present in areas linked to severe incidents. This unexpected observation suggests that the severity of incidents was not necessarily correlated with the presence of stops nearby, despite "Stop" showing the highest correlation among the variables we considered.
+In the plot above, we have not observed many red x's on the plot, which we would have expected if "Stop" was highly correlated with severe incidents. This finding suggests that severe incidents were not necessarily correlated with the presence of stops nearby, even it is already the most correlated one in this surrounding set.
 
-This discovery implies that the relationship between stops and incident severity is more intricate than initially assumed. It suggests that other factors may have a stronger influence on the severity of incidents, overshadowing the correlation with stops alone. It is evident that stops alone do not provide a complete explanation of incident severity, and additional variables or contextual factors must be taken into account.
+This discovery implies that the relationship between stops and incident has the highest correlation, but it does not mean that most of the accidents are directly correlated with stops.
 
 We must remember that correlation does not indicate causation. While "Stop" exhibited the highest correlation with severity in our analysis, there may be confounding variables or interactions that impact the relationship. Therefore, we cannot conclude that the presence of stops causes severe incidents based on this analysis alone.

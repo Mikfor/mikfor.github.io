@@ -7,6 +7,8 @@ In our in-depth exploration of San Francisco's traffic landscape, we delve into 
 
 Upon generating the heatmap, a captivating picture of San Francisco's traffic incidents begins to emerge. Scattered across the city, these incidents paint a vivid picture of the challenges faced by commuters and transportation authorities alike. However, it is the areas of highest incident densities that truly capture our attention and warrant a closer analysis.
 
+<iframe src="html_plots/heatmap.html" width="100%" height="500"></iframe>
+
 
 <iframe src="html_plots/map_sf.html" width="100%" height="500"></iframe>
 
