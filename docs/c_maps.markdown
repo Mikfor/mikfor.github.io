@@ -9,11 +9,11 @@ In the following heatmap, we observe that while traffic incidents occur scattere
 
 <iframe src="html_plots/heatmap.html" width="100%" height="500"></iframe>
 
+Through an animated heatmap, showing the geomap distribution of the incidents as per their Severity, we observe that Severity 2 clearly makes up for the resulting mapping shapes of previously shown geomaps. Another interesting point to note is the relatively few incidents of Severity 3 and their alignment along the Interstate 280 roadway. While closer examination of damages in each incident is beyond the scope of this project, an interesting observation from this distribution, is that there is rarely long delays caused by traffic incidents along the busy polylines, and even more so anywhere else in San Francisco. Perhaps the traffic incident response procedure is just that good.
 
 <iframe src="html_plots/map_sf.html" width="100%" height="500"></iframe>
 
-As we examine the heatmap, we are drawn to specific regions where traffic incidents appear to be concentrated. Prominently featured are the areas surrounding the iconic Oakland Bay Bridge, the bustling Dwight D. Eisenhower Highway, and the vital Bayshore Freeway - both integral sections of Interstate 80 and U.S. Route 101. Additionally, our analysis reveals a notable hotspot at the highway roundabout connecting Route 101 and Interstate 280.
-
+By dividing the city as per its districts, we can examine the regional incident distribution with a choropleth map.
 As expected in the following choropleth map, we recognize the pattern that most incidents take place in the districts containing the abovementioned passage: Route 101, Interstate 80, and Interstate 280. The district containing the top most incidents is Southern (spanning the SoMa major neighborhood), followed by Mission District and Bayview where the densities follow Route 101 along the coastline.
 
 <iframe src="html_plots/incident_counts_map.html" width="100%" height="500"></iframe>
