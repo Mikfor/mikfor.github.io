@@ -2,16 +2,17 @@
 layout: post
 title: "Analysis"
 ---
+The introductory of the project emphasizes on exploratory analysis to gain a better understanding of the data and to investiage various categories and statistics of the traffic incidents at hand.  Our first point of interest is to investigate the incidents using datetime analysis. We consider the following figures:
 
-We convert incident time details to datetime to examine the frequency distributions of weekdays and hours. In the resulting figures, we observe particular details: the majority of the incidents happen during the daytime, with Thursday being the most dominant weekday in our data, although only slightly edging Friday. The daily peak of incidents happens 12:00 AM every day bar Sunday.
 
-Furthermore, we observe that December is the month with most incidents, followed by the months leading up to December. The figure also shows how May and June are plagued with traffic incidents, but sees a steep fall in July.
 
 <img src="assets/images/datetime_1.png" alt="datetime_1">
 
-In the next plot we examined the relationship between the time of day and accident occurrence. One interesting aspect we explored was the contrast between accidents that happen during the day and those that occur in darkness.
+By converting the logged incident time details to datetime, we are able to examine the frequency distributions as per weekdays and hours. The resulting figures indicates that the majority of the incidents happen during the daytime, with Thursday being the most prevalent weekday in our data, although only slightly edging Friday. The daily peak of incidents happens 12:00 AM every day bar Sunday. Furthermore, we observe that December is the month with most incidents, followed by the months leading up to December. The figure also shows how May and June are plagued with traffic incidents, but sees a steep fall in July.
 
-To differentiate between accidents that occurred during the day and those that took place in darkness, we added the "Sunrise_Sunset" variable as the hue. This attribute highlights the two distinct categories and enables us to compare their distributions visually.
+The findings are roughly in consensus with U.S standards of non-fatal crashes tend to happen during daytime [Source: [National Safety Council](https://injuryfacts.nsc.org/motor-vehicle/overview/crashes-by-time-of-day-and-day-of-week/)]. Our data comprises mainly of incidents causing intermediate delays as explained later in the Analysis-section. In conclusion, datetime analysis of San Francisco traffic incident yields that the city roughly follows the national tendencies and frequencies.
+
+The following figure depicts the geographic distrubtion of the the incidents happening either during sunrise or sunset. The demographic shape of the incidents is further explained in the menu option "Maps". Here, the presented figure shows a rather random scatter of the incidents as per their sunrise or sunset hue. However, this visualization further reinforces our understanding that incidents are more prevalent during the day as explained earlier.
 
 <img src="assets/images/datetime_2.png" alt="datetime_2">
 
@@ -23,15 +24,15 @@ By corroborating the findings from our previous analysis, this jointplot reinfor
 
 <h3>Severity</h3>
 
-The "Severity" column provides information about the severity of the impact of a traffic incident on the road polyline, rated on a scale of 1 (short delay) to 4 (long delay). However, there are no clear guidelines on what qualifies as a "short" or "long" delay.
-
-Most of the logged incidents fall under Severity 2, with Severity 3 being the second most common category. On a geomap displaying the distribution of all incidents, we can see that the Severity 4 incidents are concentrated around the high-density hotspots. Notably, there are no Severity 4 incidents recorded on the Oakland Bay Bridge road segment.
-
-By observing an animated heatmap that displays the geomap distribution of incidents according to their Severity, we can see that Severity 2 is the most prevalent category, dominating the resulting mapping shapes seen in previous geomaps. We can also see that the incidents of Severity 3 are relatively few, and mainly concentrated along the Interstate 280 roadway. It is worth noting that while we cannot examine the damages caused by each incident in detail within the scope of this project, this distribution suggests that there are rarely long delays caused by traffic incidents along the busy polylines or anywhere else in San Francisco. This may indicate that the traffic incident response procedure is effective.
+The "Severity" column represent the severity of the impact of the traffic incident on the road polyline, ranging from 1 (short delay) to 4 (long delay).There are, however, no given thresholds or indicators on what constitutes a "short" and "long" delay. 
 
 <img src="assets/images/severity_1.png" alt="severity">
 
-The next plot visualizes the incident counts by year, categorized according to severity levels. The severity levels range from 1 to 4, with 1 being the least severe and 4 being the most severe. Each severity level is represented by a different color in the plot.
+We observe the vast majority of the logged incidents to be of Severity 2 with a great distance to the runner up, Severity 3. The following figures displays the frequency distribution of the severity counts (left) and a geographic distribution of the incidents as per their logged severity level (left). In the geographic distribution of the incidents, we note that the slight majority of the Severity 4 incidents are centered around certain high density hotspots explained in the menu option "Maps". These include the Route 66 interstates. 
+
+It is, however, interesting to note that there are no Severity 4 incidents on the Oakland Bay Bridge polyline, which is the highest density polyline for road incident in our data. As the data does not contain information about the damages involved in each traffic incident,, thus not allowing for closer examination of damages in each incident, an interesting observation from the displayed distribution is that there is rarely long delays caused by traffic incidents, even along the busy polylines. 
+
+in 2014, San Francisco government pledged to eliminate traffic fatalities by 2024 through better education on public safety, stricter enforcement of traffic laws, and continously adopting policy changes. This commitment is known as the city's "Vision Zero" policy [Source: [SF Gov](https://sfgov.org/scorecards/transportation/traffic-fatalities)].
 
 <iframe src="html_plots/severity_bokeh.html" width="100%" height="370"></iframe>
 
@@ -45,10 +46,6 @@ The plots above drove us to investigate the severity of incidents in more detail
 
 <img src="assets/images/severity_indicator.png" alt="severity_2">
 
-We examined the relationship between the presence of stops and the severity of incidents. We expected that the presence of stops would be highly correlated with severe incidents, leading us to anticipate observing many red crosses (indicating stops) in areas associated with severe incidents.
+It is understandable that it may not necessarily display Severity and 4 incidents with x'es due to the sheer amount of Severity 2 incidents. An alternative approach would be to assign different weights to the incidents as per their severity, however, this is beyond the scope of the project. For now, the finding concludes that the relationship between nearby "STOP" signs and an incident has the highest correlation, but we note that this does not correlate to most incidents being directly related to this correlation - only that this particular feature amongst all of the features in the dataset was found most prevalent in connection to the incidents.
 
-In the plot above, we have not observed many red x's on the plot, which we would have expected if "Stop" was highly correlated with severe incidents. This finding suggests that severe incidents were not necessarily correlated with the presence of stops nearby, even it is already the most correlated one in this surrounding set.
-
-This discovery implies that the relationship between stops and incident has the highest correlation, but it does not mean that most of the accidents are directly correlated with stops.
-
-We must remember that correlation does not indicate causation. While "Stop" exhibited the highest correlation with severity in our analysis, there may be confounding variables or interactions that impact the relationship. Therefore, we cannot conclude that the presence of stops causes severe incidents based on this analysis alone.
+As correlation famously not does equal to causation, these findings prompt further investigation of confounding elements. In the menu option "Maps" we investigate traffic incident relation to crimes, using city government's self-published crime data. As we dive deeper into the correlation dimension, we note the need for further types of correlation to be investigated before any definitive conclusions can be reached

@@ -3,30 +3,28 @@ layout: post
 title: "Home"
 ---
 
-Welcome to our final project in the course Social Data Analysis and Visualization (02806) offered by the Technical University of Denmark in spring 2023. We are a group of 3 students with different backgrounds and experiences, and we are excited to collaborate on a real-world data analysis project.
+Welcome to our final project in 02806 Social Data Analysis and Visualization (Spring 2023). We are a group of 3 students, each with different background and expertise. We are excited to collaborate on this project aimed to investigate traffic incidents in San Francisco using real-world, publicly available data. Our data sources and preparation is referenced and explained in our Notebook deliverable.
 
-This project aims to explore and analyze traffic incidents in San Francisco using publicly available data. San Francisco is known for its challenging driving conditions, with steep hills, narrow streets, changing traffic rules, and complex parking regulations that can make navigating the city difficult for even the most experienced drivers. By analyzing this data, we hope to gain a better understanding of the factors that contribute to traffic incidents in San Francisco and ultimately inform strategies for reducing accidents and improving road safety in the city.
+Our motivation to choosing this particular project originates from multiple causes with the root in the class-wide Project Assignment A video runthrough and Peergrade review of classmates' projects. We found this project idea exciting because of its weight on both geodata and datetime analysis. We have chosen the abovementioned traffic Incident dataset due to its size, thorough content, and wide range of cities available for closer inspection. The city selectin of San Francisco is, however, arbitrary and we'd like our analyses to be applicable to whichever selected city.
 
-We were inspired to choose this project after participating in the class-wide Project Assignment A and reviewing our classmates' projects on Peergrade. Our team found the idea of analyzing traffic incidents particularly intriguing, as it involves a combination of geodata and datetime analysis. We selected the US Accidents dataset due to its comprehensive nature, large size, and coverage of a wide range of cities. While we chose to focus on analyzing data from San Francisco, our ultimate goal is to develop insights that can be applied to other cities as well.
-
-Our desired end goal with this project is to produce an analysis workflow in which any city's traffic incidents can be investigated, especially in combination with available crime data. We hope that our work will help inform policy and decision-making in the future.
+Our desired end goal with this project is to produce an analysis workflow in which any city's traffic incidents can be investigated, especially in combination with other data sets, such as crime data.
 
 <hr class="page-content-divider">
 
 <h3>The Structure of the Site</h3>
 
-The site is structered as follows:
+The site is structured using multiple pages containing different aspects of analysis and information, accessible in the header menu bar.
 
-- The Home page contains a brief introduction to the project and the team.
+The pages are described as:
 
-- The Analysis page contains the main analysis of the project.
+- Home redirects to the front page (current page), containing an introduction to the project and site structure.
 
-- The Maps page contains interactive maps of the traffic incidents in San Francisco.
+- Analysis redirects to the exploratory analysis of the project, aimed to investigate traffic incidents in San Francisco by looking at the logged geodata and incident severity levels.
 
-- The Machine Learning page contains the machine learning analysis of the project.
+- The Machine Learning is presented and explained in its own page, aimed to examine incident correlation using publicly available San Francisco crime data.
 
-- The About page contains information about the project and the team.
+- About contains information about the project, team, and contains a redirection to the Notebook where all of the underlying analysis happens.
 
-INFO: If the visualizations is unreadable, please try to right click and open the image in a new tab.
+In the visualization, users can right click on the plots and select "Open picture in a new tab", which opens the plot a new tab of the browser, allowing for zooming, either with a right click for an enlarged zoom or CTRL+mousewheel measured zooming.
 
 
