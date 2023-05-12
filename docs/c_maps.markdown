@@ -3,9 +3,9 @@ layout: post
 title: "Maps"
 ---
 
-In our in-depth exploration of San Francisco's traffic landscape, we delve into the analysis of geospatial data representing start coordinates of traffic incidents. By visualizing this data in the form of a heatmap, we aim to uncover the underlying patterns and densities of incidents throughout the city. Join us as we embark on this journey to unravel the intricacies of San Francisco's traffic incident landscape.
+As our project is centered around San Francisco, we'd like to firstly produce and examine a heatmap of the data. Our geodata comprises of start- and end-coordinates of latitude and longitude of the polylines affected by logged traffic incidents. We use the start coordinates to plot the heatmap.
 
-Upon generating the heatmap, a captivating picture of San Francisco's traffic incidents begins to emerge. Scattered across the city, these incidents paint a vivid picture of the challenges faced by commuters and transportation authorities alike. However, it is the areas of highest incident densities that truly capture our attention and warrant a closer analysis.
+In the following heatmap, we observe that while traffic incidents occur scattered across most of San Francisco, the highest densities can be found centered around the Oakland Bay Bridge, Dwight D. Eisenhower Highway and Bayshore Freeway (both are parts of Interstate 80 and U.S. Route 101), and the highway roundabout between Route 101 and Interstate 280.
 
 <iframe src="html_plots/heatmap.html" width="100%" height="500"></iframe>
 
