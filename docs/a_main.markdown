@@ -5,7 +5,7 @@ title: "Home"
 
 Welcome to our final project in 02806 Social Data Analysis and Visualization (Spring 2023). We are a group of 3 students, each with different background and expertise. We are excited to collaborate on this project aimed to investigate traffic incidents in San Francisco using real-world, publicly available data. Our data sources and preparation is referenced and explained in our Notebook deliverable.
 
-Our motivation to choosing this particular project originates from multiple causes with the root in the class-wide Project Assignment A video runthrough and Peergrade review of classmates' projects. We found this project idea exciting because of its weight on both geodata and datetime analysis. We have chosen the abovementioned traffic Incident dataset due to its size, thorough content, and wide range of cities available for closer inspection. The city selectin of San Francisco is, however, arbitrary and we'd like our analyses to be applicable to whichever selected city.
+Our motivation to choosing this particular project originates from multiple causes with the root in the class-wide Project Assignment A video runthrough and Peergrade review of classmates' projects. We found this project idea exciting because of its weight on both geodata and datetime analysis. We have chosen the abovementioned traffic Incident dataset due to its size, thorough content, and wide range of cities available for closer inspection. The city selection of San Francisco is, however, arbitrary and we'd like our analyses to be applicable to whichever selected city.
 
 Our desired end goal with this project is to produce an analysis workflow in which any city's traffic incidents can be investigated, especially in combination with other data sets, such as crime data.
 
@@ -29,6 +29,6 @@ The pages are described as:
 
 In the visualization, users can right click on the plots and select "Open picture in a new tab", which opens the plot a new tab of the browser, allowing for zooming, either with a right click for an enlarged zoom or CTRL+mousewheel measured zooming.
 
-See full notebook here: [Jupyternbviewer](https://nbviewer.org/github/Mikfor/FinalAssignment_B/blob/main/traffic%20incident_Project_Assignemt_B.ipynb).
+See full notebook here:[Jupyternbviewer](https://nbviewer.org/github/Mikfor/FinalAssignment_B/blob/main/traffic%20incident_Project_Assignemt_B.ipynb). Opens in a new tab.
 
 

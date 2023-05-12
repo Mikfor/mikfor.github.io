@@ -36,5 +36,5 @@ Last but not least, all reported incidents from San Francisco Police Department 
 
 <iframe src="html_plots/incident_locations_map.html" width="100%" height="420"></iframe>
 
-The interactive map provides insights with driving under the influence which is indicated as level 1 severity. While 2, 3 and 4 represent the original data points.
+The interactive map provides insights with driving under the influence which is indicated as level 1 severity. While 2, 3 and 4 represent the original data points. We observe that while the arrests are scattered across all of San Francisco, the higher densities follow the before-mentioned high-density hotspots along Route 66.
 
