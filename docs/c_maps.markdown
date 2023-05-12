@@ -36,7 +36,5 @@ Last but not least, all reported incidents from San Francisco Police Department 
 
 <iframe src="html_plots/incident_locations_map.html" width="100%" height="420"></iframe>
 
-The interactive map provides compelling insights into the distribution of reported incidents based on their severity levels. It is evident that the majority of incidents reported to the police fall into severity levels 1 and 2, while incidents categorized as severity levels 3 and 4 appear less frequently. This discrepancy in the distribution of severity levels suggests a potential correlation with the overall quantity of incidents.
-
-By visualizing the data on the map, we can discern that severity 1 and 2 incidents are more prevalent throughout the city, indicating a higher frequency of less severe incidents being reported to the police. On the other hand, severity 3 and 4 incidents appear to be relatively fewer in number, suggesting a lower occurrence of more severe incidents requiring police intervention. This might be weird due to the fact that if an accident is severe, it is more likely that the police will be called to the scene. However, it is important to note that the data is based on the incidents reported to the police, and not the actual number of incidents. Therefore, the data might be skewed due to the fact that some incidents are not reported to the police. Conversely, incidents of lower severity may be underreported, potentially due to their lesser impact on public safety or the involvement of other authorities in handling such incidents.
+The interactive map provides insights with driving under the influence which is indicated as level 1 severity. While 2, 3 and 4 represent the original data points.
 
